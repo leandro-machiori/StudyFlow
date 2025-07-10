@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">StudyFlow</string>
+    <string name="titulo1">Bem-Vindo ao StudyFlow</string>
+    <string name="materias">Matérias</string>
+    <string name="cronograma">Cronograma</string>
+    <string name="lembretes">Lembretes</string>
+    <string name="progresso">Progresso</string>
+    <string name="NomeM">Nome da matéria</string>
+    <string name="descricao">Descrição</string>
+    <string name="salvar">Salvar</string>
+    <string name="voltar">Voltar</string>
+    <string name="Titulo">Título</string>
+    <string name="mensagem">Mensagem</string>
+    <string name="date_e_hora">Data e Hora</string>
+    <string name="entrar">Entrar</string>
+    <string name="logiin">Login</string>
+    <string name="Cda">Cadastre-se</string>
+    <string name="senha">Senha</string>
+    <string name="nomeC">Nome completo</string>
+    <string name="cadastra">Cadastrar</string>
+    <string name="jaTem">Já tem conta? Faça login</string>
+    <string name="email">E-mail</string>
+    <string name="horario">Horário (hh:mm)</string>
+    <string name="data">Data (dd/mm/aaaa)</string>
+    <string name="materia">Matéria</string>
+    <string name="conteudo_estudado">Conteúdo estudado</string>
+</resources>

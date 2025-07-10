@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/main"
+    android:padding="24dp"
+    android:background="@color/blue3">
+
+    <TextView
+        android:text="Cadastro"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/etNomeCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/nomeC" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/etEmailCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="12dp" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/etSenhaCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/senha"
+        android:inputType="textPassword"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
+        android:text="@string/cadastra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tvVoltarLogin"
+        android:gravity="center"
+        android:text="@string/jaTem"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
