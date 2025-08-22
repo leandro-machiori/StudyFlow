@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:background="@color/blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_materia"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/edtNomeMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_materia"
+        android:inputType="textPersonName"
+        android:background="@color/white"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/edtDescricaoMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/descricao_materia"
+        android:inputType="textMultiLine"
+        android:background="@color/white"
+        android:padding="12dp"
+        android:minLines="3"
+        android:gravity="top"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnSalvarMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/atualizar"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/white"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnExcluirMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/excluir"
+        android:backgroundTint="@color/dangerColor"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/dangerColor"
+        android:text="Voltar" />
+</LinearLayout>
